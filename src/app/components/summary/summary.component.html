@@ -4,8 +4,8 @@
     <span>
         <div class="mdl-card__title">
             <h4 style="color: #fff; margin: 0"> 
-                {{stock?.symbol?.totUpperCase()}}<br/> 
-                {{stock?.lastPriceTradeOnly | currency: 'USD':'symbol':'.2'}}<br/>
+                {{stock?.symbol?.totUpperCase()}}<br /> 
+                {{stock?.lastPriceTradeOnly | currency: 'USD':'symbol':'.2'}}<br />
                 {{stock?.change | currency: 'USD':'symbol':'.2'}} 
                 ({{stock?.changeInPercent | percent:'.2'}}) 
             </h4>

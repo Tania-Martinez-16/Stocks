@@ -21,6 +21,7 @@ export interface StockInterface {
 
 //Define la clase y la exporta
 export class StocksService {
+  
   // Método constructor para inyectar el servicio HttpClient en la propiedad de la clase http
   constructor(private http: HttpClient) { }
 
