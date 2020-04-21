@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "stocks"
+    }
+  },
+  "defaultProject": "stocks",
+  "cli": {
+    "analytics": false
+  }
 }
